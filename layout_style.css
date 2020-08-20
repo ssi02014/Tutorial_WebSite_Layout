@@ -1,0 +1,48 @@
+body{
+    background: #c8e6c9;
+}
+#wrap{
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    /* 텍스트 정렬 */
+    text-transform: uppercase;
+    /* 텍스트 대문자로 만들기 */
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    background: #2e7d32;
+    line-height: 100px;
+    /* 약간 가라인데 세로 가운데 정렬*/
+}
+#nav{
+    width: 1000px;
+    height: 100px;
+    background: #388e3c;
+    line-height: 100px;
+}
+#side{
+    width: 300px;
+    height: 600px;
+    background:#43a047;
+    float: left;
+    line-height: 600px;
+}
+#contents{
+    width: 700px;
+    height: 600px;
+    background: #4caf50;
+    float: left;
+    line-height:600px;
+}
+#footer{
+    width: 1000px;
+    height: 100px;
+    background: #66bb6a;
+    float: left;
+    line-height:100px;
+}

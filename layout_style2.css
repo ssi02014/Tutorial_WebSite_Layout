@@ -1,0 +1,47 @@
+body{
+    background: #b3e5fc;
+}
+#wrap{
+    width: 1000px;
+    height: 900px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    background: #0277bd;
+}
+#nav{
+    width: 1000px;
+    height: 100px;
+    background: #0288d1;
+}
+#side_left{
+    width: 300px;
+    height: 600px;
+    background: #039be5;
+    float: left;
+}
+#contents{
+    width: 400px;
+    height: 600px;
+    background: #03a9f4;
+    float: left;
+}
+#side_right{
+    width: 300px;
+    height: 600px;
+    background: #29b6f6;
+    float: left;
+}
+#footer{
+    width: 1000px;
+    height: 100px;
+    background: #0288d1;
+    clear: both;
+    /* float:left을 차단하기위한 속성*/
+}
