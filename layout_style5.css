@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* 자식한테 height 값이 있으면 부모는 지워도됨 */
+#header-wrap{
+    width: 100%;
+    background: #8d6e63;
+    line-height: 100px;
+}
+#banner-wrap{
+    width: 100%;
+    background:#a1887f;
+}
+#content-wrap{
+    width: 100%;
+    background:#bcaaa4;
+}
+#footer-wrap{
+    width: 100%;
+    background: #d7ccc8;
+}
+
+.header-container{
+    width: 1000px;
+    height: 100px;
+    background: #3e2723;
+    margin: 0 auto;
+    line-height: 100px;
+}
+.banner-container{
+    width: 1000px;
+    height: 300px;
+    background: #4e342e;
+    margin: 0 auto;
+    line-height: 300px;
+}
+.content-container{
+    width: 1000px;
+    height: 500px;
+    background: #5d4037;
+    margin: 0 auto;
+    line-height: 500px;
+}
+.footer-container{
+    width: 1000px;
+    height: 100px;
+    background: #6d4c41;
+    margin: 0 auto;
+    line-height: 100px;
+}
